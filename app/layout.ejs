@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header" data-aos="fade-right">
+      <h1>Joanne<br>Chen</h1>
+      <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week1/photo.png"
+        alt="Joanne Chen">
+    </div>
+    <div class="content" data-aos="fade-left">
+      <div class="mb-1">
+        <div class="title">
+          <h2>個人資料</h2>
+          <span>PROFILE</span>
+        </div>
+        <p>陳久安 Joanne Chen<br> 1997-<br> 應屆畢業生／接案設計師／UI 設計實習生</p>
+        <p>UI 設計修行中／立志當斜槓青年<br>獨立接案，內容涵蓋：<br>品牌規劃、視覺設計、編輯設計、標準字、物件及印刷品設計等。</p>
+      </div>
+      <div class="mb-1">
+        <div class="title">
+          <h2>學歷</h2>
+          <span>EDUCATION</span>
+        </div>
+        <p>國立六角師範大學 視覺設計學系 學士學位 | 2016－2020</p>
+        <p>國立六腳高級中學 美術班 | 2013－2016</p>
+      </div>
+    </div>
+  </div>
+
+  <%- contents %>
+
+  <div class="footer grayBg">
+    <div class="grayContent" data-aos="flip-left">
+      <div class="title">
+        <h2>聯絡方式</h2>
+        <span>CONTACT METHOD</span>
+      </div>
+      <p>Mail：xxxd@hexschool.com</p>
+      <p>Phone：0910123456</p>
+      <p>Kaohsiung, Taiwan</p>
+      <p>作品連結：https://www.behance.net/xxxdddddd</p>
+      <ul>
+        <li><a href="#"><img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week1/facebook.svg"
+              alt="FB"></a></li>
+        <li><a href="#"><img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week1/instagram-alt.svg"
+              alt="IG"></a></li>
+        <li><a href="#"><img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week1/line.svg"
+              alt="Line"></a></li>
+      </ul>
+    </div>
+  </div>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
